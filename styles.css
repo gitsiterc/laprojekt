@@ -1,5 +1,5 @@
-@font-face { font-family: 'Rader'; src: url('Fonts/PPRader-Italic.otf'); } 
-@font-face { font-family: 'Montreal'; src: url('Fonts/PPNeueMontreal-Book.otf')}
+@font-face { font-family: 'Rader'; src: url('PPRader-Italic.otf'); } 
+@font-face { font-family: 'Montreal'; src: url('PPNeueMontreal-Book.otf')}
 *{
     margin:0px;
 }
