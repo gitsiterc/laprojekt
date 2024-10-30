@@ -1,0 +1,138 @@
+@font-face { font-family: 'Rader'; src: url('Fonts/PPRader-Italic.otf'); } 
+@font-face { font-family: 'Montreal'; src: url('Fonts/PPNeueMontreal-Book.otf')}
+*{
+    margin:0px;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+    background-color:rgb(28, 28, 28);
+    font-family: 'Montreal';
+    color: white;
+}
+.bolder{
+    font-family: 'Rader';
+    font-size:30px;
+
+}
+.h0{
+    font-family: 'Rader';
+    Font-size:400px;
+    margin-left:200px;
+    margin-right:200px;
+}
+h1{
+    font-family: 'Rader';
+    font-size:200px;
+    margin-left:200px;
+    margin-right:200px;
+    text-align:left;
+}
+h2{
+    font-family: 'Rader';
+    font-size: 100px;
+    margin-left:200px;
+    margin-right:200px;
+}
+.line{
+    height: 1px;
+    background-color:rgb(170, 170, 170);
+    margin:200px;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+.line-right{
+    height: 1px;
+    background-color:rgb(170, 170, 170);
+    margin-bottom:0px;
+    margin-top:100px;
+    width:500px;
+    margin-left:auto;
+}
+.line-ft{
+    height: 1px;
+    background-color:rgb(122, 122, 122);
+    margin:200px;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+.head{
+    background-image:url("Frame8.png"); 
+    -webkit-background-size: cover;
+    background-size: cover;
+    width:100%;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+    font-size: 25px;
+    display:flex;
+    flex-direction: row;
+}
+.section{
+    width:100%;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+    font-size: 25px;
+    text-align:left;
+    padding-left:200px;
+    padding-right:200px;
+}
+.footer{
+    padding:20px;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+    color: rgb(122, 122, 122);
+}
+.spacer100{
+    height:100px;
+    width:100%;
+}
+.spacer20{
+    height:20px;
+    width:100%;
+}
+.a-ft{
+    color: rgb(186, 186, 186);
+    text-decoration:none;
+}
+.a-ft:hover{
+    color:white;
+}
+a{
+    color:white;
+    text-decoration:none;
+}
+.right{
+    display:flex;
+    flex-direction:column;
+    width:50%;
+    justify-content: end;
+    text-align:right;
+    padding-right: 200px;
+}
+.left{
+    width: 50%;
+    left:0px;
+    text-align: Left;
+}
+.phd{
+    padding:0px;
+    margin:0px;
+    margin-right:0px;
+    margin-left:auto;
+    width:500px;
+    right:0px;
+    justify-content: end;
+}
+.hhd{
+    padding:0px;
+    margin:0px;
+    margin-left:200px;
+}
+video{
+    border-radius:25px;
+}
